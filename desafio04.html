@@ -11,7 +11,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="card shadow-sm p-4">
-                    <h3 class="mb-4">Criar conta</h3>
+                    <h3 class="mb-4">Area de Atendimento ao clientes</h3>
                     <form>
                         <div class="row g-3">
                             <div class="col-sm-6">
@@ -26,32 +26,28 @@
                             <div class="col-12">
                                 <label class="form-label">Usuário</label>
                                 <div class="input-group">
-                                    <span class="input-group-text">@</span>
-                                    <input type="text" class="form-control" placeholder="joaosilva">
+                                    <span class="input-group-text">telefone</span>
+                                    <input type="text" class="form-control" placeholder="55">
                                 </div>
                             </div>
 
                             <div class="col-12">
-                                <label class="form-label">Ária de interesse</label>
+                                <label class="form-label">Tipos de Serviço</label>
                                 <select class="form-select">
                                     <option selected>Escolha uma opção...</option>
-                                    <option value="1">Front-end</option>
-                                    <option value="2">Back-end</option>
-                                    <option value="3">Full-Stack</option>
+                                    <option value="1">Limpeza Interna e Troca de Pasta Térmica</option>
+                                    <option value="2">Substituição de Bateria</option>
+                                    <option value="3">Reparo em Placa</option>
                                 </select>
                             </div>
 
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input type="checkbox"  class="form-check-input" id="termos">
-                                    <label for="termos" class="form-check-label">
-                                        Concordo com os termos de uso
-                                    </label>
-                                </div>
-                            </div>
+                            <div class="mb-3">
+                                <label for="comentario" class="form-label">Você confirma que concorda com todos os termos:</label>
+                                <textarea class="form-control" id="comentario" rows="4" placeholder="Assine aqui"></textarea>
+                              </div>
 
                             <div class="col-12 mt-4">
-                                <button class="btn btn-success w-100" type="submit">Finalizar Cadastro</button>
+                                <button class="btn btn-success w-100" type="submit">Finalizar Serviço</button>
                             </div>
 
                         </div>
